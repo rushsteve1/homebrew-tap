@@ -1,9 +1,10 @@
 cask "okular@nightly" do
   arch arm: "arm64"
 
+  version "6766"
   sha256 "0e1d26c316a72f09ed6fafdf9087a6006663422d770c50246bc06468bb75ce7e"
 
-  url "https://cdn.kde.org/ci-builds/graphics/okular/master/macos-#{arch}/okular-master-6766-macos-clang-#{arch}.dmg"
+  url "https://cdn.kde.org/ci-builds/graphics/okular/master/macos-#{arch}/okular-master-#{version}-macos-clang-#{arch}.dmg"
   name "Okular"
   desc "Universal Document Viewer"
   homepage "https://okular.kde.org/"
